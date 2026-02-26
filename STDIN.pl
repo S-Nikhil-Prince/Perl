@@ -21,7 +21,7 @@ example:
 say "Enter a string: ";
 my $input = <STDIN>;
 chomp $input;
-say "You entered: $input";
+say "Yes ! $input";
 
 #difference between SAY and PRINT
 #The main difference between say and print is that say automatically adds a newline character at the end of the output
