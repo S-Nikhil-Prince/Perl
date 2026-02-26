@@ -2,6 +2,7 @@
 use strict;
 use warnings;
 #Variables in Perl
+
 #Scalar variables
 my $name = "Nikhil Prince"; #=> Scalar variable to store a string
 my $age = 20; #=> Scalar variable to store a number
