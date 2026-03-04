@@ -4,17 +4,17 @@
 #!usr/bin/perl
 use strict;
 use warnings;
-open(my $fh,">","virus.bat") or die "Error while writing into the file";
-print $fh (":top\n");
-print $fh ("color 0a\n");
-print $fh ("echo %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random%\n");
-print $fh ("color 1c\n");
-print $fh ("echo %random% %random% %random% %random%\n");
-print $fh ("color 5c\n");
-print $fh ("echo %random% %random% %random% %random% \n");
-print $fh ("color 3f\n");
-print $fh ("goto top\n");
-close($fh);
+# open(my $fh,">","virus.bat") or die "Error while writing into the file";
+# print $fh (":top\n");
+# print $fh ("color 0a\n");
+# print $fh ("echo %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random%\n");
+# print $fh ("color 1c\n");
+# print $fh ("echo %random% %random% %random% %random%\n");
+# print $fh ("color 5c\n");
+# print $fh ("echo %random% %random% %random% %random% \n");
+# print $fh ("color 3f\n");
+# print $fh ("goto top\n");
+# close($fh);
 
 #now lets write the program to run this virus.bat file
 system("start virus.bat");
