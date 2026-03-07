@@ -9,5 +9,9 @@ E=ROR: Fatal error
 
 E    : Validation error
 ER   : Format 3 error
-ERR  : Decoding error
+ERR  : Decoding 4 5 error
 ERRR : Fatal error
+
+ERROR = 25
+ERROR  =  59
+ERROR  = 23
