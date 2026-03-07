@@ -1,0 +1,13 @@
+ERROR: Validation error
+E0ROR: Format error
+E-ROR: Parse error
+E ROR: Encoding error
+E*ROR: Decoding error
+E1ROR: Checksum error
+EROR : Timeout error
+E=ROR: Fatal error
+pror: tEsting
+E    : Validation error
+ER   : Format error
+ERR  : Decoding error
+ERRR : Fatal error
