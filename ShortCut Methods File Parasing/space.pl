@@ -14,3 +14,5 @@ close($fh);
 #     only recognizes "ERROR = 459"
 # if($line =~ /ERROR\s+=\s+\d+/){
 #     recognizes "ERROR = 459" and "ERROR=459" and "ERROR =459" and "ERROR= 459"
+
+# "\s" is used to match any whitespace character (space, tab, etc.)
