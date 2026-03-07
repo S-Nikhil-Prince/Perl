@@ -4,6 +4,11 @@ use warnings;
 
 open (my $fh,"<","error.txt") or die "error while opening the file";
 while(my $line=<$fh>){
+    if($line =~ /ERROR\s=\s\d/){
+          print("Case 1\n");
+          print("Matched at line : $line");
+          print("Case 2\n");
+    }
     if($line =~ /ERROR\s+=\s+\d+/){
           print("Matched at line : $line");
     }
